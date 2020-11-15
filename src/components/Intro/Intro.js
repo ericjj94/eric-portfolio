@@ -17,6 +17,7 @@ const Intro = () => {
             <SocialMediaWrapper>
             <a href="https://github.com/ericjj94" class="fa fa-github"></a>
             <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-skype"></a>
             </SocialMediaWrapper>
         </IntroWrapper>
     )

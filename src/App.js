@@ -3,6 +3,8 @@ import Intro from "./components/Intro/Intro";
 import './style.css'
 
 import styled from 'styled-components';
+import AboutMe from "./components/AboutMe/AboutMe";
+import Footer from './components/Footer/Footer';
 
 const ParentWrapper = styled.div`
   background-color: #000;
@@ -13,8 +15,17 @@ const ParentWrapper = styled.div`
 
 export default function App() {
   return (
+    <React.Fragment>
     <ParentWrapper>
       <Intro />
     </ParentWrapper>
+    <div style={{ backgroundColor: '#708090'}}>
+      <div className="container">
+        <AboutMe />
+      </div>
+    </div>
+    <Footer />
+    </React.Fragment>
+
   );
 }
