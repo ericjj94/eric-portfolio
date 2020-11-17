@@ -15,9 +15,9 @@ const Intro = () => {
             and have created single page and server side rendered applications using ReactJS. 
             </DescriptionText>
             <SocialMediaWrapper>
-            <a href="https://github.com/ericjj94" class="fa fa-github"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-skype"></a>
+            <a href="https://github.com/ericjj94" className="fa fa-github"></a>
+            <a href="#" className="fa fa-linkedin"></a>
+            <a href="#" className="fa fa-skype"></a>
             </SocialMediaWrapper>
         </IntroWrapper>
     )

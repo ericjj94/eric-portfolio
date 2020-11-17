@@ -24,7 +24,7 @@ export default function App() {
         <AboutMe />
       </div>
     </div>
-    <Footer />
+    <ParentWrapper><Footer /></ParentWrapper>
     </React.Fragment>
 
   );
