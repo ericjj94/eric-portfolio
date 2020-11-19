@@ -17,11 +17,7 @@ export default function App() {
   return (
     <React.Fragment>
       <Intro />
-    <div style={{ backgroundColor: '#708090'}}>
-      <div className="container">
-        <AboutMe />
-      </div>
-    </div>
+      <AboutMe />
     <ParentWrapper><Footer /></ParentWrapper>
     </React.Fragment>
 

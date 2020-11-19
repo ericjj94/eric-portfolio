@@ -15,6 +15,7 @@ const Intro = () => {
                      <h1>I'm Eric Jose Joy</h1>
                      <p>I'm a New Delhi based web developer with a total experience of 4 years. I have been working as a ReactJS developer and have created single page and server side rendered applications using ReactJS.
                      </p>
+                     <div>Iside the code</div>
                   </IntroText>
                </div>
             </div>
