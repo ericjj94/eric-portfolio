@@ -16,9 +16,7 @@ const ParentWrapper = styled.div`
 export default function App() {
   return (
     <React.Fragment>
-    <ParentWrapper>
       <Intro />
-    </ParentWrapper>
     <div style={{ backgroundColor: '#708090'}}>
       <div className="container">
         <AboutMe />
