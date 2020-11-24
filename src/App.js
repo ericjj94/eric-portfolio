@@ -5,6 +5,7 @@ import './style.css'
 import styled from 'styled-components';
 import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from './components/Footer/Footer';
+import './style.css';
 
 const ParentWrapper = styled.div`
   background-color: #000;

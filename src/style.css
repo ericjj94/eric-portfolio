@@ -6,3 +6,7 @@
   text-decoration: none;
   margin: 5px 2px;
 }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
