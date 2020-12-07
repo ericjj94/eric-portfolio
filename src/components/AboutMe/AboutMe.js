@@ -13,10 +13,11 @@ const AboutMe = () => {
               alt="profile-pic"
               height="200px"
               width="200px"
+              style={{ borderRadius: "50%" }}
             />
           </div>
           <div className="col-md-6">
-            <div className="about-me-description">
+            <div className="about-me-description" style={{marginTop: '50px'}}>
               <p>
                 I am a web developer working at Valuecoders LLP,Noida,India. I
                 have a total experience of 3 years and 5 months in web
