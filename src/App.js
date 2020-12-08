@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from './components/Footer/Footer';
 import './style.css';
 import Skills from "./components/Skills/Skills";
+import EducationDetails from './components/EducationDetails/EducationDetails';
 
 const ParentWrapper = styled.div`
   background-color: #000;
@@ -20,6 +21,7 @@ export default function App() {
     <React.Fragment>
       <Intro />
       <AboutMe />
+      {/* <EducationDetails /> */}
       <Skills />
     <ParentWrapper><Footer /></ParentWrapper>
     </React.Fragment>

@@ -36,23 +36,31 @@ const skillsArray = [
 ]
 
 const Skills = () => {
-    return (<div className="container">
-        <div className="row">
-            <h2>Skills</h2>
-            <div style={{    
-                display: 'flex',
-                flexDirection: 'column'
-            }}>
-            {skillsArray.map((skills)=> (
-            <React.Fragment>
-                <label>{skills.name}</label>
-                <div class="w3-light-grey" key={skills.id} style={{backgroundColor:'#CCCCCC', borderRadius: '5px'}}>
-                    <div class="w3-grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#313131', borderRadius: '5px' }}></div>
-                </div><br /><br />
-            </React.Fragment>
-            ))}
+    return (
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                <h2>Skills</h2>
+                <div style={{    
+                    display: 'flex',
+                    flexDirection: 'column'
+                }}>
+                {skillsArray.map((skills)=> (
+                <React.Fragment>
+                    <div className="col-md-6">
+                        <label>{skills.name}</label>
+                    </div>
+                    <div className="col-md-6">
+                    <div class="w3-light-grey" key={skills.id} style={{backgroundColor:'#CCCCCC', borderRadius: '5px'}}>
+                        <div class="w3-grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#313131', borderRadius: '5px' }}></div>
+                    </div><br /><br />
+                </div>
+                </React.Fragment>
+                ))}
+                </div>
+                </div>
             </div>
         </div>
-        </div>);
+    );
 }
 export default Skills;
