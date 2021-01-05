@@ -11,8 +11,8 @@ const Skills = () => {
                         <label>{skills.name}</label>
                     </div>
                     <div className="col-md-6">
-                    <div class="light-grey" key={skills.id} style={{ backgroundColor:'#CCCCCC'}}>
-                        <div class="grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#313131' }}></div>
+                    <div class="light-grey" key={skills.id} style={{ backgroundColor:'#ccc'}}>
+                        <div class="grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#fff' }}></div>
                     </div><br /><br />
                 </div>
                 </React.Fragment>
@@ -40,7 +40,7 @@ const Skills = () => {
       }
     return (
         // change bgcolor to an image
-        <div className="background" style={{"backgroundColor":"red"}}>
+        <div className="background" style={{"backgroundColor":"#000", color: '#fff'}}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkExperience = (props) => {
   return (
-    <div style={{ backgroundColor: 'red', color: '#fff' }}>
+    <div style={{ backgroundColor: 'black', color: '#fff' }}>
       <div className="container">
         <h1>Work Experience</h1>
         <div className="row">
