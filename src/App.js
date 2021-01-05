@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import './style.css';
 import Skills from "./components/Skills/Skills";
 import EducationDetails from './components/EducationDetails/EducationDetails';
+import WorkExperience from './components/WorkExperience/WorkExperience';
+import Projects from './components/Projects/Projects';
 
 const ParentWrapper = styled.div`
   background-color: #000;
@@ -21,8 +23,10 @@ export default function App() {
     <React.Fragment>
       <Intro />
       <AboutMe />
-      {/* <EducationDetails /> */}
       <Skills />
+      <EducationDetails />
+      <WorkExperience />
+      <Projects />
     <ParentWrapper><Footer /></ParentWrapper>
     </React.Fragment>
 

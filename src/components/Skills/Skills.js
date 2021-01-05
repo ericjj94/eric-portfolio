@@ -39,6 +39,8 @@ const Skills = () => {
         return skills;
       }
     return (
+        // change bgcolor to an image
+        <div className="background" style={{"backgroundColor":"red"}}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
@@ -48,6 +50,7 @@ const Skills = () => {
                 </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
