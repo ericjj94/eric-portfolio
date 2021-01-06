@@ -4,15 +4,15 @@ import skillsArray from '../../utils/skills';
 const Skills = () => {
 
     function renderSkills(parts){
-        return parts && parts.map((skills)=> (
-            <li style={{ listStyleType: 'none' }}>
+        return parts && parts.map((skills, i)=> (
+            <li style={{ listStyleType: 'none' }} key={String(i)}>
                 <React.Fragment>
                     <div className="col-md-6">
                         <label>{skills.name}</label>
                     </div>
                     <div className="col-md-6">
-                    <div class="light-grey" key={skills.id} style={{ backgroundColor:'#ccc'}}>
-                        <div class="grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#fff' }}></div>
+                    <div className="light-grey" key={skills.id} style={{ backgroundColor:'#ccc'}}>
+                        <div className="grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#fff' }}></div>
                     </div><br /><br />
                 </div>
                 </React.Fragment>

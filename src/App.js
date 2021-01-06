@@ -4,7 +4,7 @@ import './style.css'
 
 import styled from 'styled-components';
 import AboutMe from "./components/AboutMe/AboutMe";
-import Footer from './components/Footer/Footer';
+import ContactMe from './components/ContactMe/ContactMe';
 import './style.css';
 import Skills from "./components/Skills/Skills";
 import EducationDetails from './components/EducationDetails/EducationDetails';
@@ -27,7 +27,7 @@ export default function App() {
       <EducationDetails />
       <WorkExperience />
       <Projects />
-    <ParentWrapper><Footer /></ParentWrapper>
+    <ParentWrapper><ContactMe /></ParentWrapper>
     </React.Fragment>
 
   );

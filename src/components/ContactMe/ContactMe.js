@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import './footer-styles.css';
+import './contact-styles.css';
 
-const Footer = () => {
+const ContactMe = () => {
   const [state,setState] = useState({name:'',email:'',subject:'',message:''})
   const { name, email, message, subject } = state;
   function handleSubmit(e) {
     e.preventDefault();
-    console.log('Here for ',state)
   }
   function handleChange(e) {
     let change = {};
@@ -45,4 +44,4 @@ const Footer = () => {
     </section>
   )
 }
-export default Footer;
+export default ContactMe;
