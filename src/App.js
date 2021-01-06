@@ -1,6 +1,6 @@
 import React from "react";
 import Intro from "./components/Intro/Intro";
-import './style.css'
+import './style.css';
 
 import styled from 'styled-components';
 import AboutMe from "./components/AboutMe/AboutMe";

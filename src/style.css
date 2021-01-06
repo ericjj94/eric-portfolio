@@ -10,3 +10,13 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+.card {
+  height: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    height: 150px;
+  }
+}
