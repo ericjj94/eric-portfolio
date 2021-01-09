@@ -1,18 +1,19 @@
 const projectsData = [{
-    name: 'Cofman',
+    name: 'Cofman.com',
     url: 'http://www.cofman.com',
     description: 'Introduced React to the legacy application of Cofman. Created React components that are unit tested with enzyme,mocha and chai. Removed the existing jquery and implemented it in React',
     showLink: true
-},{
-    name: 'Tekion Service Menu Admin',
-    url: '',
-    description: 'Created an admin panel for Tekion Corp that allows the admin to add or modify the service details of the vehicles that are currently being used in the US.This would allow the admin to make quick changes in the electric cars updates',
-    showLink: false
 },{
     name: 'Hey Travelista',
     url: 'https://www.heytravelista.com',
     description: 'HeyTravelista is a hotel booking website based out in Hong Kong and is developed in ReactJS. Allows the users to browse to hotels and book the hotels on selected dates.',
     showLink: true
+},
+{
+    name: 'Tekion Service Menu Admin',
+    url: '',
+    description: 'Created an admin panel for Tekion Corp that allows the admin to add or modify the service details of the vehicles that are currently being used in the US.This would allow the admin to make quick changes in the electric cars updates',
+    showLink: false
 },
 {
     name: 'PizzaMania',

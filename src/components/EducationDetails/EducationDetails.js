@@ -1,4 +1,5 @@
 import React from 'react';
+import TextBanner from './styledComponents/TextBanner';
 
 const EducationDetails = (props) => {
     return (
@@ -10,11 +11,11 @@ const EducationDetails = (props) => {
                 </div>
             <div className="col-md-12">
                 <h4>Bachelors Of Engineering in Information Technology • 2016</h4>
-                <p style={{marginLeft: '5px' }}>Learnt the fundamentals of computer science and graduated with a CGPA of 7.8</p>
+                <TextBanner>Learnt the fundamentals of computer science and graduated with a CGPA of 7.8</TextBanner>
             </div>
             <div className="col-md-12">
                 <h4>Don Bosco School • 2012</h4>
-                <p style={{marginLeft: '5px' }}>Schooling from Don Bosco School.New Delhi</p>
+                <TextBanner>Schooling from Don Bosco School.New Delhi</TextBanner>
             </div>
             </div>    
         </div>
