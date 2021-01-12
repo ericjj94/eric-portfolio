@@ -3,15 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "styled-components": "^5.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js", 
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "react-scripts": "latest"

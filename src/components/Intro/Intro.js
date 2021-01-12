@@ -2,8 +2,6 @@ import React from 'react';
 
 import IntroWrapper from './styledcomponents/IntroWrapper';
 import IntroText from './styledcomponents/IntroText';
-// import SocialMediaWrapper from './styledcomponents/SocialMediaWrapper';
-
 
 const Intro = () => {
     return (
