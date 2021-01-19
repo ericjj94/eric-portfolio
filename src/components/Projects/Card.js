@@ -9,7 +9,7 @@ const Card = ({project}) => {
         <h5 className="card-title">{project.name}</h5>
         <p className="card-text">{project.description}
         </p>
-        {project.showLink ? <a href="#" className="btn btn-primary">
+        {project.showLink ? <a href={project.url || '#'} className="btn btn-primary">
           Visit Website
         </a>: <a className="btn btn-primary">Visit Github Profile</a>}
         

@@ -5,7 +5,7 @@ const projectsData = [{
     showLink: true
 },{
     name: 'Hey Travelista',
-    url: 'https://www.heytravelista.com',
+    url: 'https://www.facebook.com/heytravelista/',
     description: 'HeyTravelista is a hotel booking website based out in Hong Kong and is developed in ReactJS. Allows the users to browse to hotels and book the hotels on selected dates.',
     showLink: true
 },
