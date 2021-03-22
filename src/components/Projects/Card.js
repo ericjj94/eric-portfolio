@@ -6,7 +6,7 @@ const Card = ({project}) => {
     <div className="card">
       {/* <img src="" className="card-img-top" alt="Project image" /> */}
       <div className="card-body">
-        <h5 className="card-title">{project.name}</h5>
+        <h5 className="card-title" style={{fontSize: '16px', fontStyle:'italic' }}>{project.name}</h5>
         <p className="card-text">{project.description}
         </p>
         {project.showLink ? <a href={project.url || '#'} className="btn btn-primary">

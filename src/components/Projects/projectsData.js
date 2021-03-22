@@ -4,6 +4,11 @@ const projectsData = [{
     description: 'Introduced React to the legacy application of Cofman. Created React components that are unit tested with enzyme,mocha and chai. Removed the existing jquery and implemented it in React',
     showLink: true
 },{
+    name:'Resume Builder',
+    url: 'https://github.com/ericjj94/resumebuilder',
+    description: 'Allows a user to create resume using Nodejs. It uses the npm package "html-pdf"',
+    showLink: true
+},{
     name: 'Hey Travelista',
     url: 'https://www.facebook.com/heytravelista/',
     description: 'HeyTravelista is a hotel booking website based out in Hong Kong and is developed in ReactJS. Allows the users to browse to hotels and book the hotels on selected dates.',
