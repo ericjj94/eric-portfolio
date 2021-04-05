@@ -6,7 +6,7 @@ const AboutMe = () => {
     <section className="about-us">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-3">
             <h1>About Me</h1>
             <img
               src={profilePic}
@@ -16,37 +16,20 @@ const AboutMe = () => {
               style={{ borderRadius: "50%" }}
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-9">
             <div className="about-me-description" style={{marginTop: '50px'}}>
               <p>
-                I am a web developer working at Valuecoders LLP,Noida,India. I
-                have a total experience of 3 years and 5 months in web
-                development. My area of expertise is ReactJS. I have worked on
-                both client side and server side rendered React applications.
+                Hi!. My name is Eric Jose Joy and I am a web developer.
+                Coding has always been a passion for me since my engineering days.
+                I enjoy creating websites and design backend architecture. 
               </p>
               <p>
-                I am currently learning mobile app development using ReactNative
+                I am currently learning the fundamentals of mobile app development and have worked on React Native
               </p>
-              <p>
-                I have also worked on AngularJS to create admin panels in my
-                previous company.
-              </p>
-              <p>
-                The React components I created in my projects are unit tested
-                using Enzyme,Mocha and Chai.
+              <p>I consider unit testing to be an integral part of the Software development Life Cycle.
+                I have worked with Enzyme, Mocha and Chai.
               </p>
               <p>I have also used NightwatchJS for automation testing.</p>
-              <ul>
-                <li>
-                  Click here to see the list of live projects that I am part of.
-                </li>
-                <li>Click here to view my personal github repository.</li>
-                <li>
-                  I believe in helping colleagues and contributing to the open
-                  source society as well. Click here to view my personal
-                  stackOverflow profile
-                </li>
-              </ul>
             </div>
           </div>
         </div>

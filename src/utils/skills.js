@@ -43,6 +43,11 @@ const skills =  [
         id: 7,
         name:'NightwatchJS',
         rating: 3
+    },
+    {
+        id: 8,
+        name:'React Testing Library',
+        rating: 3
     }
 
 ]
