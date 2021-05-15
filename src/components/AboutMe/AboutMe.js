@@ -47,7 +47,14 @@ const AboutMe = () => {
                 Chai.
               </p>
               <p>I have also used NightwatchJS for automation testing.</p>
-              <button onClick={handleShowResume}>View Resume</button>
+              <div className="col-md-4" style={{ marginLeft: "-15px" }}>
+                <button
+                  onClick={handleShowResume}
+                  style={{ backgroundColor: "black" }}
+                >
+                  View Resume
+                </button>
+              </div>
             </div>
           </div>
         </div>
