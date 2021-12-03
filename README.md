@@ -4,11 +4,11 @@ The application is a description of who I am and what I do. The applications con
 
 # Technology Stack
 
-The portfolio has been developed using ReactJS and uses express to render the production build, Since the content is very static, there's no database associated with it. The application also uses styled-components to use the concepts of CSS-in -JS(only a few components use styled-component).
+The portfolio has been developed using ReactJS and uses ExpressJS to render the production build, Since the content is very static, there's no database associated with it. The application also uses styled-components to use the concepts of CSS-in-JS(only a few components use styled-components).
 
 ## Setup the application locally for development environment
 
-1. `npm i ` in the root folder would install all the required dependencies required to run the project
+1. `npm i` in the root folder would install all the required dependencies required to run the project
 2. cd eric-portfolio
 3. Start the development build by running the command `npm run start:dev`
 
