@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    name: "Autowords",
+    url: "",
+    description:
+      "Autowords allows you to create at scale highly relevant, unique and always up-to-date content for your products.",
+  },
+  {
     name: "Cofman.com",
     url: "http://www.cofman.com",
     description:

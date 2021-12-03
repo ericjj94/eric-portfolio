@@ -18,3 +18,7 @@ To create a production build,
 
 1. `npm run build`
 2. to start the production build locally: `npm run start`
+
+## Note:
+
+The message section is not implemented. The UI component has been implemented but there is no interaction with the backend.
