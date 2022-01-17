@@ -1,15 +1,15 @@
 import React from "react";
 import Intro from "./components/Intro/Intro";
-import './style.css';
+import "./style.css";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 import AboutMe from "./components/AboutMe/AboutMe";
-import ContactMe from './components/ContactMe/ContactMe';
-import './style.css';
+import ContactMe from "./components/ContactMe/ContactMe";
+import "./style.css";
 import Skills from "./components/Skills/Skills";
-import EducationDetails from './components/EducationDetails/EducationDetails';
-import WorkExperience from './components/WorkExperience/WorkExperience';
-import Projects from './components/Projects/Projects';
+import EducationDetails from "./components/EducationDetails/EducationDetails";
+import WorkExperience from "./components/WorkExperience/WorkExperience";
+import Projects from "./components/Projects/Projects";
 
 const ParentWrapper = styled.div`
   background-color: #000;
@@ -27,8 +27,7 @@ export default function App() {
       <EducationDetails />
       <WorkExperience />
       <Projects />
-    <ParentWrapper><ContactMe /></ParentWrapper>
+      {/* <ParentWrapper><ContactMe /></ParentWrapper> */}
     </React.Fragment>
-
   );
 }

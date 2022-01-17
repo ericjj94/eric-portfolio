@@ -2,11 +2,8 @@ import React from "react";
 
 const Card = ({ project }) => {
   return (
-    <div className="col-md-4">
-      <div
-        className="card"
-        style={{ border: "1px solid black", borderRadius: "5px" }}
-      >
+    <div className="col-md-4 btn-hover color-1">
+      <div className="card" style={{ border: "1px solid black", borderRadius: "5px" }}>
         {/* <img src="" className="card-img-top" alt="Project image" /> */}
         <div className="card-body" style={{ padding: "5px" }}>
           <h5
