@@ -1,6 +1,6 @@
 # Portfolio
 
-The application is a description of who I am and what I do. The applications contains details of the projects I have worked on.The portfolio is under development, however the test version of the website can be accessed here: http://ejj-portfolio.herokuapp.com/
+The application is a description of who I am and what I do. The applications contains details of the projects I have worked on.The portfolio is under development.
 
 # Technology Stack
 
