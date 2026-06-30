@@ -4,7 +4,7 @@ The application is a description of who I am and what I do. The applications con
 
 # Technology Stack
 
-The portfolio is built with React 19 and bundled with Vite. The production build is served by an Express 5 server. Since the content is very static, there's no database associated with it. The application also uses styled-components for CSS-in-JS (only a few components use styled-components).
+The portfolio is built with React 19 and bundled with Vite. It is a fully static site — the build output is plain HTML, CSS, and JS with no backend or database. The application also uses styled-components for CSS-in-JS (only a few components use styled-components).
 
 Requires Node.js 20 or higher.
 
@@ -15,12 +15,16 @@ Requires Node.js 20 or higher.
 
 ## Run the production build
 
-To create and serve a production build:
-
 1. `npm run build` — bundles the app into the `dist/` folder.
-2. `npm run start` — starts the Express server, which serves the contents of `dist/` (defaults to port 3000, override with the `PORT` env var).
+2. `npm run preview` — serves the contents of `dist/` locally so you can check the production build.
 
-You can also preview the production build with Vite directly using `npm run preview`.
+## Deployment
+
+The site is deployed to [Vercel](https://vercel.com/) as a static site (Hobby/free tier).
+
+Deployment is handled through Vercel's GitHub integration: import the repository on Vercel, and it auto-detects the Vite framework preset (build command `npm run build`, output directory `dist`). Configuration lives in `vercel.json`, which sets the framework, build settings, and an SPA rewrite so that all routes fall back to `index.html`.
+
+Once connected, every push to the production branch triggers a deploy, and pull requests get their own preview URLs. No environment variables are required.
 
 ## Note:
 
