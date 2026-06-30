@@ -14,7 +14,7 @@ const experience = [
     role: "Web Developer",
     company: "HCL Technologies",
     place: "Bengaluru, India",
-    period: "Aug 2021 – Present",
+    period: "Aug 2021 – July 2022",
     points: [
       "Build web applications as part of the engineering team.",
       "Write production code and unit tests, and convert designs to HTML.",

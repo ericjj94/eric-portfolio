@@ -77,18 +77,8 @@ const AboutMe = () => {
           <Avatar src={profilePic} alt="Eric Jose Joy" />
           <div>
             <p>
-              Hi, I'm Eric Jose Joy, a web developer. I love building websites and designing
-              backend architecture.
+              "Hi, I'm Eric — a web developer who likes building things that work end to end, from the interface down to the backend architecture. I build mobile apps too, with React Native and Flutter. Testing isn't an afterthought for me: I lean on Enzyme, Mocha, Chai, and NightwatchJS to ship code I trust.
             </p>
-            <p>
-              I'm also actively involved in mobile development and have built apps with
-              React Native/Flutter.
-            </p>
-            <p>
-              I treat testing as an essential part of the development process,
-              and I've worked with Enzyme, Mocha, and Chai.
-            </p>
-            <p>I've also used NightwatchJS for automation testing.</p>
             <ResumeButton onClick={handleShowResume}>View resume</ResumeButton>
           </div>
         </Grid>
