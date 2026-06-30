@@ -1,57 +1,74 @@
-import React from 'react';
-import skillsArray from '../../utils/skills';
+import React from "react";
+import styled from "styled-components";
+import skillsArray from "../../utils/skills";
+import { Section, Container, Kicker, SectionTitle } from "../../theme/shared";
 
-const Skills = () => {
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem 3rem;
 
-    function renderSkills(parts){
-        return parts && parts.map((skills, i)=> (
-            <li style={{ listStyleType: 'none' }} key={String(i)}>
-                <React.Fragment>
-                    <div className="col-md-6">
-                        <label>{skills.name}</label>
-                    </div>
-                    <div className="col-md-6">
-                    <div className="light-grey" key={skills.id} style={{ backgroundColor:'#ccc'}}>
-                        <div className="grey" style={{height:'50px',width:`${skills.rating*20}%` , backgroundColor: '#fff' }}></div>
-                    </div><br /><br />
-                </div>
-                </React.Fragment>
-            </li>
-        )
-        );
-    }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+`;
 
-    function splitSkillsArray() {
-        const skills = [];
-        const sep = Math.ceil(skillsArray.length / 2);
-        const firstPart = skillsArray.slice(0, sep);
-        const secondPart = skillsArray.slice(sep, skillsArray.length);
-        skills.push(
-            <ul className="col-xs-6" key="skills-1">
-                {renderSkills(firstPart)}
-            </ul>
-        );
-        skills.push(
-            <ul className="col-xs-6" key="skills-2">
-                {renderSkills(secondPart)}
-            </ul>
-        );
-        return skills;
-      }
-    return (
-        // change bgcolor to an image
-        <div className="background" style={{"backgroundColor":"#000", color: '#fff'}}>
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                <h2>Skills</h2>
-                <div>
-                    {splitSkillsArray()}
-                </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    );
-}
+const Skill = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+`;
+
+const Label = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+
+  span:last-child {
+    font-family: ${({ theme }) => theme.fonts.mono};
+    color: ${({ theme }) => theme.colors.textFaint};
+  }
+`;
+
+const Track = styled.div`
+  height: 8px;
+  width: 100%;
+  background: ${({ theme }) => theme.colors.bgElevated};
+  border-radius: 999px;
+  overflow: hidden;
+`;
+
+const Fill = styled.div`
+  height: 100%;
+  width: ${({ $rating }) => $rating * 20}%;
+  background: linear-gradient(
+    90deg,
+    ${({ theme }) => theme.colors.accentStrong},
+    ${({ theme }) => theme.colors.accent}
+  );
+  border-radius: 999px;
+`;
+
+const Skills = () => (
+  <Section id="skills">
+    <Container>
+      <Kicker>02 — toolbox</Kicker>
+      <SectionTitle>Skills</SectionTitle>
+      <Grid>
+        {skillsArray.map((skill, i) => (
+          <Skill key={String(i)}>
+            <Label>
+              <span>{skill.name}</span>
+              <span>{skill.rating}/5</span>
+            </Label>
+            <Track>
+              <Fill $rating={skill.rating} />
+            </Track>
+          </Skill>
+        ))}
+      </Grid>
+    </Container>
+  </Section>
+);
+
 export default Skills;
