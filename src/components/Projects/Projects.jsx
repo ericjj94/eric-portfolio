@@ -1,36 +1,27 @@
 import React from "react";
+import styled from "styled-components";
 import Card from "./Card";
 import projectsData from "./projectsData";
+import { Section, Container, Kicker, SectionTitle } from "../../theme/shared";
 
-const Projects = () => {
-  function renderRows() {
-    let finalArr = [];
-    let columns = [];
-    projectsData.forEach((result, i) => {
-      // prepare the array
-      columns.push(
-        <div key={String(i)}>
-          <Card project={result}></Card>
-        </div>
-      );
-      // after three items add a new row
-      if ((i + 1) % 3 === 0) {
-        finalArr.push(<div key={String(i)}>{columns}</div>);
-        columns = [];
-      }
-    });
-    return finalArr;
-  }
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+`;
 
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <h3>Check out some of my Works</h3>
-          <div className="row">{renderRows()}</div>
-        </div>
-      </div>
-    </div>
-  );
-};
+const Projects = () => (
+  <Section id="projects">
+    <Container>
+      <Kicker>05 — selected work</Kicker>
+      <SectionTitle>Check out some of my work</SectionTitle>
+      <Grid>
+        {projectsData.map((project, i) => (
+          <Card key={String(i)} project={project} />
+        ))}
+      </Grid>
+    </Container>
+  </Section>
+);
+
 export default Projects;
