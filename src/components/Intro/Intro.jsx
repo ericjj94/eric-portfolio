@@ -80,9 +80,8 @@ const Intro = () => (
         Eric Jose Joy<span>.</span>
       </Name>
       <Lead>
-        I'm a Munich based web developer with a total experience of 8 years. I
-        have been working as a ReactJS developer and have created single page and
-        server side rendered applications using ReactJS.
+        I'm a Munich-based web developer with 8 years of experience. I build
+        single-page and server-rendered applications with React.
       </Lead>
       <Actions>
         <Button className="primary" href="#projects">

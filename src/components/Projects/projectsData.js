@@ -3,48 +3,48 @@ const projectsData = [
     name: "Autowords",
     url: "",
     description:
-      "Autowords allows you to create at scale highly relevant, unique and always up-to-date content for your products.",
+      "Create relevant, unique, and always up-to-date product content at scale.",
   },
   {
     name: "Cofman.com",
     url: "http://www.cofman.com",
     description:
-      "Introduced React to the legacy application of Cofman. Created React components that are unit tested with enzyme,mocha and chai. Removed the existing jquery and implemented it in React",
+      "Introduced React to Cofman's legacy app, replacing jQuery with unit-tested React components (Enzyme, Mocha, Chai).",
     showLink: true,
   },
   {
     name: "SpaceX Launch Application",
     url: "https://github.com/ericjj94",
     description:
-      "SpaceX Launch Application is a server side rendered React application that renders the Spacex Launch(s) in the past years. It uses Express to render the HTML.",
+      "A server-rendered React app listing past SpaceX launches, using Express to render the HTML.",
     showLink: false,
   },
   {
     name: "Resume Builder",
     url: "https://github.com/ericjj94/resumebuilder",
     description:
-      'Allows a user to create resume using Nodejs. It uses the npm package "html-pdf"',
+      "A Node.js tool for building resumes, powered by the html-pdf package.",
     showLink: true,
   },
   {
     name: "Hey Travelista",
     url: "https://www.facebook.com/heytravelista/",
     description:
-      "HeyTravelista is a hotel booking website based out in Hong Kong and is developed in ReactJS. Allows the users to browse to hotels and book the hotels on selected dates.",
+      "A Hong Kong hotel-booking site built in React, where users browse and book hotels for chosen dates.",
     showLink: true,
   },
   {
     name: "Tekion Service Menu Admin",
     url: "",
     description:
-      "Created an admin panel for Tekion Corp that allows the admin to add or modify the service details of the vehicles that are currently being used in the US.This would allow the admin to make quick changes in the electric cars",
+      "An admin panel for Tekion Corp to add and update vehicle service details for cars used across the US.",
     showLink: false,
   },
   {
     name: "PizzaMania",
     url: "",
     description:
-      "A pizza delivery website created for the users in Delhi/NCR region. The app uses geoLocation and is developed in ReactJS",
+      "A React pizza-delivery site for the Delhi/NCR region, using geolocation to find nearby users.",
     showLink: false,
   },
   {
@@ -52,7 +52,7 @@ const projectsData = [
     url: "",
     platform: "Mobile- ReactNative",
     description:
-      "A parcel delivery app created in React Native that allows the user to send/track parcels from one place to another",
+      "A React Native app for sending and tracking parcel deliveries.",
     showLink: true,
   },
   {
@@ -60,7 +60,7 @@ const projectsData = [
     url: "",
     platform: "Web",
     description:
-      "An admin panel that keeps track of the customers, delivery boys, generates reports and manages transactions",
+      "An admin panel to manage customers, delivery staff, transactions, and reports.",
     showLink: false,
   },
 ];
