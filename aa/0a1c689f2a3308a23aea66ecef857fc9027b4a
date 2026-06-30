@@ -1,0 +1,14 @@
+src/components/Intro/Intro.jsx
+  h_030711cf611143 1-73,76-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "aa0a1c689f2a3308a23aea66ecef857fc9027b4a",
+  "prompts": {},
+  "humans": {
+    "h_030711cf611143": {
+      "author": "Eric Jose <e.joy@planerio.de>"
+    }
+  }
+}
