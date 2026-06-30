@@ -1,0 +1,32 @@
+src/components/Intro/Intro.jsx
+  h_030711cf611143 3,13
+src/components/Intro/styledcomponents/Intro.style.jsx
+  h_030711cf611143 1-73
+src/components/EducationDetails/EducationDetails.jsx
+  h_030711cf611143 4
+src/components/EducationDetails/styledComponents/EducationDetails.style.jsx
+  h_030711cf611143 1-37
+src/components/Projects/Card.jsx
+  h_030711cf611143 3
+src/components/Nav/styled/Nav.styled.jsx
+  h_030711cf611143 1-52
+src/components/Projects/Card.styled.jsx
+  h_030711cf611143 1-49
+src/components/Skills/Skills.styled.jsx
+  h_030711cf611143 1-47
+src/components/Nav/Nav.jsx
+  h_030711cf611143 3
+src/components/Skills/Skills.jsx
+  h_030711cf611143 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "6063a90140f268a957a0e9e32d63317f63dd32d5",
+  "prompts": {},
+  "humans": {
+    "h_030711cf611143": {
+      "author": "Eric Jose <e.joy@planerio.de>"
+    }
+  }
+}
