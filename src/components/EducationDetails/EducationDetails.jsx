@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Section, Container, Kicker, SectionTitle } from "../../theme/shared";
-import { Card, Head, Degree, Year, Detail } from "./styledcomponents/EducationDetails.style";
+import { Card, Head, Degree, Year, Detail } from "./styledComponents/EducationDetails.style";
 
 const education = [
   {
