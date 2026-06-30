@@ -4,14 +4,21 @@ import { Section, Container, Kicker, SectionTitle } from "../../theme/shared";
 
 const experience = [
   {
+    role:"Senior Software Engineer",
+    company: "Planerio GmBH",
+    place: "Munich, Germany",
+    period: "Aug 2022 – Present",
+    points: []
+  },
+  {
     role: "Web Developer",
     company: "HCL Technologies",
     place: "Bengaluru, India",
     period: "Aug 2021 – Present",
     points: [
-      "Working as a software developer to develop web applications.",
-      "Job roles include writing code and unit tests, converting PSDs to HTML.",
-      "Writing test cases, acceptance testing and end to end testing using Playwright.",
+      "Build web applications as part of the engineering team.",
+      "Write production code and unit tests, and convert designs to HTML.",
+      "Write test cases and run acceptance and end-to-end tests with Playwright.",
     ],
   },
   {
@@ -20,10 +27,10 @@ const experience = [
     place: "Noida, India",
     period: "April 2019 – July 2021",
     points: [
-      "Worked as a ReactJS developer to develop single page applications and write unit tests in Enzyme, Mocha and Chai of the components created.",
-      "Worked on server side rendering with creating markup for SEO (both JSON-ld schema and microData).",
-      "Gathered and refined specifications and requirements.",
-      "Analyzed requirements and designed, developed and implemented software applications for multiple websites.",
+      "Built single-page React apps and wrote component unit tests with Enzyme, Mocha, and Chai.",
+      "Implemented server-side rendering and SEO markup (JSON-LD schema and microdata).",
+      "Gathered and refined project requirements.",
+      "Designed, developed, and shipped applications for multiple websites.",
     ],
   },
   {
@@ -32,9 +39,9 @@ const experience = [
     place: "New Delhi, India",
     period: "Feb 2018 – March 2019",
     points: [
-      "Worked as a ReactJS developer to create single page applications with React and NodeJs as the backend.",
-      "Project includes an admin panel created for Tekion Corp, USA that allows the admin to make changes to the existing service menu.",
-      "Developed a React Native app for a parcel delivery app (MonoPorto).",
+      "Built single-page applications with React and a Node.js backend.",
+      "Built an admin panel for Tekion Corp (USA) to manage their vehicle service menu.",
+      "Developed a React Native parcel-delivery app (MonoPorto).",
     ],
   },
   {
@@ -43,10 +50,10 @@ const experience = [
     place: "New Delhi, India",
     period: "Sept 2017 – Jan 2018",
     points: [
-      "Worked as a trainee to learn the fundamentals of web development including HTML/CSS and basics of Javascript.",
-      "Created small scale applications as a part of the training process.",
-      "Got accustomed to using Git as a version control tool and JIRA for task management.",
-      "Learnt the jargon of Agile development.",
+      "Learned the fundamentals of web development: HTML, CSS, and JavaScript.",
+      "Built small applications throughout the training program.",
+      "Got comfortable with Git for version control and JIRA for task management.",
+      "Picked up the fundamentals of Agile development.",
     ],
   },
   {
@@ -55,8 +62,8 @@ const experience = [
     place: "Gurugram, India",
     period: "Jan 2017 – April 2017",
     points: [
-      "Worked as a Web Developer Intern on the existing product QuickMile.",
-      "Learnt the fundamentals of web development and software development life cycles.",
+      "Worked as a web developer intern on the QuickMile product.",
+      "Learned the fundamentals of web development and the software development life cycle.",
     ],
   },
 ];

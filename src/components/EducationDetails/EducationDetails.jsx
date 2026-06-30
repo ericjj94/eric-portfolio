@@ -42,12 +42,12 @@ const education = [
     degree: "Bachelors of Engineering in Information Technology",
     year: "2016",
     detail:
-      "Learnt the fundamentals of computer science and graduated with a CGPA of 7.8",
+      "Studied the fundamentals of computer science and graduated with a 7.8 CGPA.",
   },
   {
     degree: "Don Bosco School",
     year: "2012",
-    detail: "Schooling from Don Bosco School, New Delhi",
+    detail: "Completed my schooling at Don Bosco School, New Delhi.",
   },
 ];
 
