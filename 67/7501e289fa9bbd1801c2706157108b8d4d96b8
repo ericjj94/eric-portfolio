@@ -1,0 +1,14 @@
+package.json
+  h_030711cf611143 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "677501e289fa9bbd1801c2706157108b8d4d96b8",
+  "prompts": {},
+  "humans": {
+    "h_030711cf611143": {
+      "author": "Eric Jose <e.joy@planerio.de>"
+    }
+  }
+}
