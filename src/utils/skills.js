@@ -51,4 +51,4 @@ const skills =  [
     }
 
 ]
-module.exports = skills;
+export default skills;
