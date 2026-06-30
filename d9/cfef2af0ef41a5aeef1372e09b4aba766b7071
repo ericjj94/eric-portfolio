@@ -1,0 +1,16 @@
+src/components/WorkExperience/WorkExperience.jsx
+  h_030711cf611143 17
+src/components/AboutMe/AboutMe.jsx
+  h_030711cf611143 80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "d9cfef2af0ef41a5aeef1372e09b4aba766b7071",
+  "prompts": {},
+  "humans": {
+    "h_030711cf611143": {
+      "author": "Eric Jose <e.joy@planerio.de>"
+    }
+  }
+}
