@@ -1,41 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Section, Container, Kicker, SectionTitle } from "../../theme/shared";
-
-const Card = styled.div`
-  border: 1px solid ${({ theme }) => theme.colors.border};
-  background: ${({ theme }) => theme.colors.bgCard};
-  border-radius: ${({ theme }) => theme.radius};
-  padding: 1.5rem 1.75rem;
-  margin-bottom: 1.25rem;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-`;
-
-const Head = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-  flex-wrap: wrap;
-`;
-
-const Degree = styled.h3`
-  font-size: 1.1rem;
-`;
-
-const Year = styled.span`
-  font-family: ${({ theme }) => theme.fonts.mono};
-  color: ${({ theme }) => theme.colors.accent};
-  font-size: 0.9rem;
-`;
-
-const Detail = styled.p`
-  margin: 0;
-`;
+import { Card, Head, Degree, Year, Detail } from "./styledComponents/EducationDetails.style";
 
 const education = [
   {
